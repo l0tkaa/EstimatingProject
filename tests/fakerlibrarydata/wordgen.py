@@ -7,7 +7,7 @@ import random
 fake = Faker()
 
 # Define the directory where the Word documents will be saved
-output_dir = r'C:\programming projects\sample folder\word samples'
+output_dir = WORD_SAMPLES
 
 # Create the directory if it does not exist
 os.makedirs(output_dir, exist_ok=True)

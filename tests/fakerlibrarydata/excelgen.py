@@ -19,7 +19,7 @@ base_price_per_sqft = {
 }
 
 # Folder path where files will be saved
-folder_path = r'C:\programming projects\sample folder\excel samples'
+folder_path = EXCEL_SAMPLES
 
 # Create the directory if it doesn't exist
 if not os.path.exists(folder_path):

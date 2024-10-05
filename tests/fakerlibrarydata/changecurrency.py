@@ -4,7 +4,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import NumberFormatDescriptor
 
 # Folder path where Excel files are located
-folder_path = r'C:\programming projects\sample folder\excel samples'
+folder_path = EXCEL_FOLDER_PATH
 
 # Loop through all Excel files in the directory
 for filename in os.listdir(folder_path):
