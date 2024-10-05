@@ -1,6 +1,6 @@
 # Estimating Project
 
-WORK IN PROGRESS
+⚠️ **Warning:** This project is still under development and may contain bugs.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ WORK IN PROGRESS
 
 ## About
 
-Provide a detailed description of your project. Explain what it does, the problem it solves, and any relevant background information.
+App to scan documents, model data, and use it for prediction and project estimation.
 
 ## Features
 
