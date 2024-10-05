@@ -1,6 +1,6 @@
 # Estimating Project
 
-Brief description of your project.
+WORK IN PROGRESS
 
 ## Table of Contents
 
