@@ -49,7 +49,7 @@ This project is licensed under the [MIT License](LICENSE.txt)
 
 ## Contact
 Haylee Gill <br/>
-hay.gill.work+gh@gmail.com
+[email](hay.gill.work+gh@gmail.com)
 
 
 
