@@ -1,0 +1,18 @@
+# This is a requirements file for Python projects.
+
+# General dependencies
+python-docx
+pandas
+openpyxl
+faker
+
+# For web frameworks
+
+
+# For data scraping
+
+
+# For testing
+
+
+# Add additional dependencies here, one per line
