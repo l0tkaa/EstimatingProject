@@ -30,8 +30,8 @@ Provide a detailed description of your project. Explain what it does, the proble
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/l0tkaa/EstimatingProject.git
+   cd EstimatingProject
 
 2. Install dependencies
 pip install -r requirements.txt
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 6. Create a pull request
 
 ## License
-This project is licensed under the [Apache License 2.0][\estimatingapp\LICENSE.txt]
+This project is licensed under the [MIT License][https://github.com/l0tkaa/EstimatingProject/blob/main/LICENSE.txt]
 
 ## Contact
 
