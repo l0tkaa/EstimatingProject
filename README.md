@@ -45,7 +45,7 @@ pip install -r requirements.txt
 6. Create a pull request
 
 ## License
-This project is licensed under the [MIT License](EstimatingProject/LICENSE.txt)
+This project is licensed under the [MIT License](LICENSE.txt)
 
 ## Contact
 
