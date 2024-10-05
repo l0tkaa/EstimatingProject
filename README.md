@@ -48,7 +48,7 @@ pip install -r requirements.txt
 This project is licensed under the [MIT License](LICENSE.txt)
 
 ## Contact
-Haylee Gill
+Haylee Gill <br/>
 hay.gill.work@gmail.com
 
 
