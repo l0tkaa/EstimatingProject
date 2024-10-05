@@ -45,7 +45,7 @@ pip install -r requirements.txt
 6. Create a pull request
 
 ## License
-This project is licensed under the [MIT License][https://github.com/l0tkaa/EstimatingProject/blob/main/LICENSE.txt]
+This project is licensed under the [MIT License][LICENSE.txt]
 
 ## Contact
 
