@@ -1,6 +1,8 @@
 # Estimating Project
 
-⚠️ **Warning:** This project is still under development and may contain bugs.
+
+> [!WARNING] 
+> This project is still under development and may contain bugs.
 
 ## Table of Contents
 
