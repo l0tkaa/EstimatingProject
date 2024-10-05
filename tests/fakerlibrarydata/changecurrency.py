@@ -1,10 +1,11 @@
 import os
 import pandas as pd
+from dotenv import load_dotenv
 from openpyxl import load_workbook
 from openpyxl.styles import NumberFormatDescriptor
 
 # Folder path where Excel files are located
-folder_path = EXCEL_FOLDER_PATH
+folder_path = os.getenv(EXCEL_FOLDER_PATH)
 
 # Loop through all Excel files in the directory
 for filename in os.listdir(folder_path):

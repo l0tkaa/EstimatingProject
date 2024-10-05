@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import pandas as pd
 import random
 from faker import Faker
@@ -19,7 +20,7 @@ base_price_per_sqft = {
 }
 
 # Folder path where files will be saved
-folder_path = EXCEL_SAMPLES
+folder_path = os.getenv(EXCEL_SAMPLES)
 
 # Create the directory if it doesn't exist
 if not os.path.exists(folder_path):

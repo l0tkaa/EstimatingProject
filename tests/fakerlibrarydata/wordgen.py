@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 from faker import Faker
 from docx import Document
 import random
@@ -7,7 +8,7 @@ import random
 fake = Faker()
 
 # Define the directory where the Word documents will be saved
-output_dir = WORD_SAMPLES
+output_dir = os.getenv(WORD_SAMPLES)
 
 # Create the directory if it does not exist
 os.makedirs(output_dir, exist_ok=True)

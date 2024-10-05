@@ -5,7 +5,7 @@ import pandas as pd
 
 def main():
     # Step 1: Extract data from Excel file
-    input_file = 'data/sample_estimates.xlsx'
+    input_file = os.getenv(SAMPLE_ESTIMATES)
     features, target = extract_data_from_excel(input_file)
     
     # Step 2: Save extracted data to JSON for future use
