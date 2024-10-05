@@ -1,14 +1,18 @@
 # src/main.py
 
 import os
+from dotenv import load_dotenv
 from data_extractor import extract_data_from_word
 from data_extractor import extract_data_from_excel
 from file_handler import write_data_to_json
 
+load_dotenv()
+
 def main():
     input_directory = r'C:\Programming Projects\Sample Folder'  # Input folder for Word and Excel files
-    output_directory_word = r'c:\Programming Projects\estimatingapp\data\raw_word.json' 
-    output_directory_excel = r'c:\Programming Projects\estimatingapp\data\raw_excel.json'
+    output_directory_word = os.getenv(OUTPUT_DIR_WORD)
+    output_directory_excel = os.getenv(OUTPUT_DIR_EXCEL)
+   
 
     # initialize flags and data containers
     word_files_found = False
