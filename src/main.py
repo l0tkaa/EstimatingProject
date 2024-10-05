@@ -9,7 +9,7 @@ from file_handler import write_data_to_json
 load_dotenv()
 
 def main():
-    input_directory = r'C:\Programming Projects\Sample Folder'  # Input folder for Word and Excel files
+    input_directory = os.getenv(INPUT_DIR)  # Input folder for Word and Excel files
     output_directory_word = os.getenv(OUTPUT_DIR_WORD)
     output_directory_excel = os.getenv(OUTPUT_DIR_EXCEL)
    
